@@ -1,0 +1,110 @@
+/* Layout.css */
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #4a90e2;
+  }
+  
+  hr {
+    border: 1px solid #ddd;
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  .chat-area {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  .chat-area h2 {
+    font-size: 1.8rem;
+    color: #333;
+    text-align: center;
+  }
+  .chat-area h2 {
+    font-size: 1.8rem;
+    color: #333;
+    text-align: center;
+}
+
+.messages-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.message {
+    max-width: 70%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.message.user {
+    align-self: flex-end;
+    background-color: #4a90e2;
+    color: white;
+}
+
+.message.virtual_patient {
+    align-self: flex-start;
+    background-color: #f1f1f1;
+    color: #333;
+}
+  footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align logo and textarea side by side */
+    margin-top: 300px;
+  }
+  
+  textarea#text {
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-left: 10px; /* Space between logo and textarea */
+  }
+  
+
+  .logo {
+    width: 30px; /* Adjust the size */
+    height: auto;
+    margin-right: 10px; /* Space between the icon and the textarea */
+    margin-top: 15px;
+    cursor: pointer; /* Indicate that the icon is clickable */
+  }
+  
+  .user-input {
+    text-align: right; /* Align the text to the right */
+    margin-bottom: 10px; /* Space between input and textarea */
+    font-size: 1rem;
+    color: #333;
+  }
+  button {
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    color: rgb(193, 204, 251);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #357ab7;
+}
+  
